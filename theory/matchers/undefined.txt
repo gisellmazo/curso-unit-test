@@ -1,0 +1,11 @@
+Undefined
+
+*Global property
+*Primitive
+*A value that is automatically assigned to variables that have been 
+just declared
+
+
+Primitive: Data that is no an object and has no methods
+Example:
+undefined -> let test;

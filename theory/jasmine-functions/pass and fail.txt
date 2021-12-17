@@ -1,0 +1,9 @@
+pass and fail specs
+
+when an spec is passing
+
+spec with all true expectations -> passing spec 
+spec with one or more false expectations -> failin specs 
+
+
+si un expect falla toda la prueba falla 

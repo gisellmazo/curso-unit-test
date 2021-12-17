@@ -1,0 +1,5 @@
+Disabled suite:
+
+All spec within the disabled suite will be marked as pendigd and not executed
+
+xdescribe -> to disable all the specs

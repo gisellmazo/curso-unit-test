@@ -1,0 +1,12 @@
+//Spec file extensions
+
+*.spec.js
+*.test.js 
+
+Spec === test 
+
+.js -> javascript
+.ts -> typescript
+
+(target file name)
+example calculator.spec.js

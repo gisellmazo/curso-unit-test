@@ -1,0 +1,13 @@
+Truthy or Falsy
+
+A truthy value is a value that translates to true when
+evaluated in a boolean context.
+
+A falsy value is a value that translates to false when
+evaluated in a boolean context.
+
+
+if(condition / boolean){
+
+}
+

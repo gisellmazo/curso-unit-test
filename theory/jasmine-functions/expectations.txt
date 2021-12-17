@@ -1,0 +1,10 @@
+Expectations -> assertion -> statement
+
+true or false
+
+5 + 5 = 10 -> statement
+
+expect 5 + 5 to be 10 = true 
+
+
+

@@ -1,0 +1,8 @@
+Specs 
+
+Specificaction
+Set or group of expectations that test the state of the code.
+
+Expect 1
+- expectaction 1
+- expectaction 2

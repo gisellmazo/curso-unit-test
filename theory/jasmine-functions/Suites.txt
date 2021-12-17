@@ -1,0 +1,5 @@
+Suites
+
+Group of specs or group of tests
+
+Suites nos ayudan a organiuzar nuestras pruebass

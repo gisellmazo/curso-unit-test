@@ -1,0 +1,12 @@
+MATCHERS
+
+*Its a function that implements a boolean comparison between
+the actual value and the expected value.
+
+expect(actual value).toBe(expected value);
+
+boolean comparison -> true or false
+
+*A  matcher is responsible for reporting to jasmine if the 
+expectation is true or false
+

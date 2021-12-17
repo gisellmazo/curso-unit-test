@@ -1,0 +1,10 @@
+Disabled spec:
+
+A spec that will report as pending and will not be executed.
+
+2 common cases:
+
+1. Changes in the code.
+2. TDD -> Test driven development, writing the code first
+
+xit -> to disable an spec temporarily
