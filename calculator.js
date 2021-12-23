@@ -20,4 +20,14 @@ Calculator.prototype.divide = function(number){
     }
     return this.total /=  number;
 
-}
+};
+
+Object.defineProperty(Calculator.prototype, 'version', {
+    get: function(){
+        return '0.1'
+    },
+    enumerable: true,
+    configurable: true
+
+
+})

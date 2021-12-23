@@ -1,0 +1,16 @@
+Set ups and teardowns
+
+pre-requisitos para cada spec
+
+se ejecutan antes de que corran los specs
+son:
+
+-beforeEach -> se ejecuta antes de cada spec (it)
+-beforeAll -> se ejecuta una vez antes que todos los specs (it)
+      en el suite (describe)
+
+ Teardown 
+
+ -afterEach ->  se ejecuta después de cada spec (it)
+ -afterAll -> se ejecuta una vez después de que todos los specs (it)
+      en el suite (describe)

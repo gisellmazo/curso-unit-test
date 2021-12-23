@@ -1,0 +1,13 @@
+Tips Organazing your specs
+
+-Usar describe para agrupar los specs 
+  -> suite
+
+
+-Through naming convention
+  -> Create the spec file with the same name as the js file that we are
+    are testing ex: calculator.js -> calculator.spec.js
+
+- Keep folder structure
+
+- Nesting suites

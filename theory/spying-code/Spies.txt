@@ -1,0 +1,20 @@
+Spy
+
+Spies create test doubles and help us isolate dependencies for true unit testing
+
+test doubles -> is an object that can stand in fot a real
+object in a test, similar to how a stunt double stands in for 
+an actor in a movie
+
+spies -> test doubles 
+
+a spy can stub any function and track calls to it and all arguments
+
+a spy only exists in the describe or it block in which it is 
+defined, and will be removed after each spec
+
+
+special matcher for spies:
+toHaveBeenCalled -> 
+toHaveBeenCalledWith
+toHaveBeenCalledTimes

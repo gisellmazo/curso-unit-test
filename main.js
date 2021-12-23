@@ -1,5 +1,5 @@
 function calculate(inputValue){
-    const expression = /\+|\-|\*|\\/;
+    const expression = /\+|\-|\*|\//;
     const numbers = inputValue.split(expression);
     
     const numberA = parseInt(numbers[0]);
@@ -8,7 +8,7 @@ function calculate(inputValue){
     const operation = inputValue.match(expression);
 
     if(Number.isNaN(numberA) || Number.isNaN(numberB) || operation === null){
-        updateResult('Operaci´n no reconocida');
+        updateResult('Operación no reconocida');
         return;
     }
     
@@ -40,4 +40,12 @@ function updateResult(result){
     if(element){
         element.innerText = result;
     }
+}
+
+function showVersion(){
+    const calculator = new Calculator();
+
+    const element = document.getElementById('version');
+
+    element.innerHTML = calculator.version;
 }
