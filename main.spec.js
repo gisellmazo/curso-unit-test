@@ -102,7 +102,7 @@ describe('main.js', function(){
         it('calls updateResult using returnValue', function(){
             const spy = spyOn(window, 'updateResult');
 
-            //cambia el valr que retorna la función
+            //cambia el valor que retorna la función
             spyOn(Calculator.prototype, 'multiply').and.returnValue('whatever [multiply] return');
 
             calculate('5*5');
@@ -165,7 +165,7 @@ describe('main.js', function(){
                 innerText: null
             });
 
-            const spy = spyOnProperty(Calculator.prototype, 'version', 'get')
+            const spy = spyOnProperty(Calculator.prototype, 'version', 'get').and.returnValue(Promise.resolve())
 
             showVersion();
 

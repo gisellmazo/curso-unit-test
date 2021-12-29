@@ -1,0 +1,32 @@
+{
+  "name": "simple-calculator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gisellmazo/curso-unit-test.git"
+  },
+  "author": "gisellmazo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gisellmazo/curso-unit-test/issues"
+  },
+  "homepage": "https://github.com/gisellmazo/curso-unit-test#readme",
+  "devDependencies": {
+    "jasmine-core": "^3.10.1",
+    "karma": "^6.3.9",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-matchers": "^4.0.2",
+    "puppeteer": "^13.0.1",
+    "istanbul": "^0.4.5",
+    "karma-cli": "^2.0.0"
+  },
+  "dependencies": {
+    
+  }
+}

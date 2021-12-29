@@ -140,7 +140,26 @@ describe('Calculator.js', function(){
                 expect(function(){calculator.divide(0)}).toThrowError(Error);
                 expect(function(){calculator.divide(0)}).toThrowError(Error, 'No se puede dividir por cero');
             });
-        })
+        });
+
+        //GETVERSION
+        describe('get version', function(){
+            
+            //done callback = funcion que se le pasa a los specs sean usados o no
+            it('fetches version from external source', async function(done){
+                spyOn(window, 'fetch').and.returnValue(Promise.resolve(
+                    new Response('{"version": "0.1"}')
+                ));
+
+                //cuando no es async
+                //calculator.version.then(function(version)
+                const version = await calculator.version
+                    
+                    expect(version).toBe('0.1');
+
+                    done();
+            })
+        });
 
     })
 
